@@ -61,20 +61,20 @@ public class OpMagic : IOperation
 public class CalculatorContext
 {
     // deklarace operation typu IOperation
-    private IOperation operation;
+    private IOperation opStrategy;
     // zapouzdreni pristupu
     public IOperation operace
     {
-        get { return operation; }
+        get { return opStrategy; }
     }
-    public CalculatorContext(IOperation operation)
+    public CalculatorContext(IOperation opStrategy)
     {
-        this.operation = operation;
+        this.opStrategy = opStrategy;
     }
 
-    public int ExecuteOperation(int a, int b)
+    public int executeStrategy(int a, int b)
     {
-        return operation.Execute(a, b);
+        return opStrategy.Execute(a, b);
     }
 }
 
@@ -114,7 +114,7 @@ public class CalculatorApp
 
         // novy objekt calculator tridy CalculatorContext
         CalculatorContext calculator = new CalculatorContext(op);
-        Console.Write($"Výsledek operace {calculator.operace} ({a} {selectedOperation} {b}) je: {calculator.ExecuteOperation(a, b)}");
+        Console.WriteLine($"Výsledek operace {calculator.operace} ({a} {selectedOperation} {b}) je: {calculator.executeStrategy(a, b)}");
         Console.ReadLine();
     }
 }
