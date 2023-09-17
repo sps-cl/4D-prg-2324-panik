@@ -1,7 +1,6 @@
 dont push it pánové
 
 git status
-
-git add .
-git commit -m "message"
+git add. 
+git commit -m "zpráva"
 git push
