@@ -1,7 +1,7 @@
 ﻿using System;
 
 // abstraktni trida IOperation (klicove slovo interface)
-// nemuzeme k ni pristupovat primo ale pouze pred jeji potomky (child : parent) 
+// nemuzeme k ni pristupovat primo ale pouze pres jeji potomky (child : parent) 
 public interface IOperation
 {
     int Execute(int a, int b);
@@ -84,7 +84,7 @@ public class CalculatorApp
         int a = int.Parse(Console.ReadLine());
         Console.WriteLine("Zadej druhý operand:");
         int b = int.Parse(Console.ReadLine());
-        Console.WriteLine("Zadej operaci (+, -, ?):");
+        Console.WriteLine("Zadej operaci (+, -, magic):");
         string selectedOperation = Console.ReadLine();
 
         IOperation op;
@@ -97,7 +97,7 @@ public class CalculatorApp
         {
             op = new OpSub();
         }
-        else if (selectedOperation == "?")
+        else if (selectedOperation == "magic")
         {
             Random random = new Random();
             op = new OpMagic(random);
