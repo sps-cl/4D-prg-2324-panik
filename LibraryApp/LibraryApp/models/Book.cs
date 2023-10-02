@@ -11,7 +11,8 @@ namespace LibraryApp.models
         public int NumberOfPages { get; }
         public string Author { get; }
 
-        public Book(int NumberOfPages, string Title, string Author, int Id) : base(Title, Id)
+
+        public Book(int NumberOfPages, string Author, int id, string Title) : base(id, Title)
         {
             this.NumberOfPages = NumberOfPages;
             this.Author = Author;
@@ -19,7 +20,9 @@ namespace LibraryApp.models
 
         public override void DisplayInfo()
         {
-            Console.WriteLine($"Author {Author} number of pages {NumberOfPages}");
+            Console.WriteLine($"Autor {Author} a počet stran: {NumberOfPages}");
         }
+
     }
+
 }

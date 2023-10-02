@@ -10,15 +10,15 @@ namespace LibraryApp.models
     {
         public string Director { get; }
 
-        public override void DisplayInfo()
-        {
-            Console.WriteLine($"Director {Director}");
-        }
-
-        public DVD(string Director, string Title, string Author, int Id) : base(Title, Id)
+        public DVD(string Director, int id, string Title) : base(id, Title)
         {
             this.Director = Director;
-            this.Author = Author;
         }
+
+        public override void DisplayInfo()
+        {
+            Console.WriteLine($"Autor {Director}");
+        }
+
     }
 }

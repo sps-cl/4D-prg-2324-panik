@@ -10,16 +10,15 @@ namespace LibraryApp.models
     {
         public int Id { get; }
         public string Title { get; }
-        public bool IsAvilable { get; set; }
+        public bool IsAvailable { get; set; }
 
-        public LibraryItem(int Id, string Title) {
-            this.Id = Id;   
-            this.Title = Title;   
-            this.IsAvilable = true; 
-
+        public LibraryItem(int id, string Title)
+        {
+            this.Id = id;
+            this.Title = Title;
+            this.IsAvailable = true;
         }
 
         public abstract void DisplayInfo();
-
     }
 }
