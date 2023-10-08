@@ -1,0 +1,14 @@
+D:\Honza\Škola\Programování\4D-prg-2324-panik\EventManager\bin\Debug\net6.0\EventManager.exe
+D:\Honza\Škola\Programování\4D-prg-2324-panik\EventManager\bin\Debug\net6.0\EventManager.deps.json
+D:\Honza\Škola\Programování\4D-prg-2324-panik\EventManager\bin\Debug\net6.0\EventManager.runtimeconfig.json
+D:\Honza\Škola\Programování\4D-prg-2324-panik\EventManager\bin\Debug\net6.0\EventManager.dll
+D:\Honza\Škola\Programování\4D-prg-2324-panik\EventManager\bin\Debug\net6.0\EventManager.pdb
+D:\Honza\Škola\Programování\4D-prg-2324-panik\EventManager\obj\Debug\net6.0\EventManager.GeneratedMSBuildEditorConfig.editorconfig
+D:\Honza\Škola\Programování\4D-prg-2324-panik\EventManager\obj\Debug\net6.0\EventManager.AssemblyInfoInputs.cache
+D:\Honza\Škola\Programování\4D-prg-2324-panik\EventManager\obj\Debug\net6.0\EventManager.AssemblyInfo.cs
+D:\Honza\Škola\Programování\4D-prg-2324-panik\EventManager\obj\Debug\net6.0\EventManager.csproj.CoreCompileInputs.cache
+D:\Honza\Škola\Programování\4D-prg-2324-panik\EventManager\obj\Debug\net6.0\EventManager.dll
+D:\Honza\Škola\Programování\4D-prg-2324-panik\EventManager\obj\Debug\net6.0\refint\EventManager.dll
+D:\Honza\Škola\Programování\4D-prg-2324-panik\EventManager\obj\Debug\net6.0\EventManager.pdb
+D:\Honza\Škola\Programování\4D-prg-2324-panik\EventManager\obj\Debug\net6.0\EventManager.genruntimeconfig.cache
+D:\Honza\Škola\Programování\4D-prg-2324-panik\EventManager\obj\Debug\net6.0\ref\EventManager.dll
